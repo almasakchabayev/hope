@@ -1,0 +1,24 @@
+{
+  "name": "hope",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "server": "babel-node server/server.js",
+    "test": "babel-node server/dbtest.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "deep-assign": "^2.0.0",
+    "express": "^4.13.3",
+    "falcor": "github:dzannotti/falcor",
+    "falcor-express": "^0.1.2",
+    "falcor-http-datasource": "^0.1.2",
+    "falcor-router": "^0.2.12",
+    "lodash": "^3.10.1",
+    "react-native": "^0.16.0",
+    "rx": "^4.0.7",
+    "rx.observable.combine-template": "^1.0.1",
+    "thinky": "^2.2.2"
+  }
+}
